@@ -1,0 +1,53 @@
+.form-group{
+    margin: 15px;
+}
+label {
+    display: inline-block;
+    width: 100px;
+    color: white;
+}
+.form-control {
+    border-radius: 3px;
+}
+* {
+    font-family: 'Pacifico', cursive;
+    margin: 7px;
+}
+.Section1{
+    height: 520px;
+    background-image: url("IMG/wallhavend.jpg");
+}
+.whitetext{
+    color: white;
+}
+.Maintext{
+    color: white;
+    font-size:80px;
+    text-align:center;
+    padding-top: 50px;
+}
+.header{
+    height: 200px;
+}
+.bar{
+    float: right;
+}
+.menu{
+    color: white;
+}
+.container{
+    background-color: #0d145ad4;
+}.footer {
+     color: white;
+     font-size: 20px;
+     text-align: center;
+     padding-top: 20px;
+     height: 100px;
+     background-color: rgba(0, 0, 0, 0.84);
+ }
+.danger-text{
+    color: white;
+}
+.hidden-text{
+    display: none;
+}

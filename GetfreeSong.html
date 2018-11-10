@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Free songs</title>
+    <link rel="stylesheet" href="GetfreeSong.css">
+</head>
+<body>
+<div class="Section1">
+    <div class="header">
+        <h1 class="whitetext">Legend Songs</h1>
+        <i class="whitetext">Amazing for u</i>
+        <nav class="bar">
+            <a class="menu" href="XONG.html" title="Hompage">Home</a>
+            <a class="menu" href="Register.html" title="Register Member">Register</a>
+            <a class="menu" href="Login.html" title="Login">Login</a>
+            <a class="menu" href="CreatSong.html" title="CreatSong">Creat Song</a>
+            <a class="menu" href="GetfreeSong.html" title="Free Songs">Free Song</a>
+            <a class="menu" href="MySong.html" title="MySong">My Song</a>
+        </nav>
+    </div>
+</div>
+<h1>Free Songs</h1>
+<div class="song-player">
+    <div class="song-detail">
+        <marquee behavior="scroll" direction="left">
+            <div class="current-song-title">
+                <span id="current-play-title"></span>
+            </div>
+        </marquee>
+    </div>
+    <div class="player">
+        <audio controls id="my-mp3" autoplay>
+            <source src="" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+</div>
+
+<div class="list-song" id="list-song">
+</div>
+<script src="GetfreeSong.js"></script>
+<div class="footer">
+    <div>2018 all rights reserved - a product of mutationthemes.</div>
+    <nav>
+        <a href="">Privacy Policy-</a>
+        <a href="">Term of use-</a>
+        <a href="">About-</a>
+        <a href="">legal-</a>
+    </nav>
+</div>
+</body>
+</html>
